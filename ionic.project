@@ -1,4 +1,11 @@
 {
   "name": "SQLite",
-  "app_id": ""
+  "app_id": "",
+  "browsers": [
+    {
+      "platform": "android",
+      "browser": "crosswalk-lite",
+      "version": "12.41.296.5"
+    }
+  ]
 }
