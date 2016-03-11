@@ -1,0 +1,21 @@
+{
+  "name": "sqliteEx",
+  "private": "true",
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.2.4"
+  },
+  "authors": [
+    "Zaid <akuzaid93@yahoo.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "robotodraft": "~1.1.0"
+  }
+}

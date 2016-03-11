@@ -1,0 +1,15 @@
+<ion-view cache-view="false" view-title="New">
+  <ion-nav-buttons side="right">
+    <button class="button" ng-click="save(todo)">Save</button>
+  </ion-nav-buttons>
+  <ion-content has-bouncing="true" class="has-header">
+    <div class="list">
+      <label class="item item-input item-stacked-label">
+        <input type="text" placeholder="Title" ng-model="todo.title">
+      </label>
+      <label class="item item-input item-stacked-label" ng-if="todo.title.length">
+        <textarea type="text" placeholder="What to do?" ng-model="todo.content"></textarea>
+      </label>
+    </div>
+  </ion-content>
+</ion-view>
